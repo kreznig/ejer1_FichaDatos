@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ficha Datos</title>
+</head>
+<body>
+  <section>
+    <form action="">
+      <h1>Ficha Datos</h1>
+
+          <div>
+            <label for="name">Nombre:</label><br>
+            <input id="name" type="text" placeholder="nombre" pattern="[A-Za-z\s]{1,}" title="Debe ingresar su nombre" required/>
+          </div><br>
+          <div>
+            <label for="lastname">Apellidos:</label><br>
+            <input id="lastname" type="text" placeholder="apellidos" pattern="[A-Za-z\s]{1,}" title="Debe ingresar sus apellidos" required/>
+          </div><br>
+          <div>
+            <label for="dni">DNI:</label><br>
+            <input id="dni" type="tel" placeholder="12345678" pattern="[0-9]{8}" required/>
+          </div><br>
+          <div>
+            <label for="dir">Dirección:</label><br>
+            <input id="dir" type="text" placeholder="dirección" title="Debe ingresar su direccion" required/>
+          </div><br>
+          <button id="submit" onclick="envia(); return false">Enviar Datos</button>
+          <div id="ficha"></div>
+    </form>
+  </section>
+  <script src="C:\LaboratoriaProjects\leccion-14\ejer1_FichaDatos\assets\js\main.js"></script>
+</body>
+</html>
