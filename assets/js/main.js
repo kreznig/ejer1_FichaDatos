@@ -5,4 +5,9 @@ function enviar(){
   var adress=document.getElementById('dir').value;
   var datos= "<ul><li>Nombre: "+name+"</li><li>Apellidos: "+lastname+"</li><li>DNI: "+dni+"</li><li>Dirección: "+adress+"</li></ul>";
   document.getElementById("ficha").innerHTML=datos;
+
+  document.getElementById('name').value="";
+  document.getElementById('lastname').value="";
+  document.getElementById('dni').value="";
+  document.getElementById('dir').value="";
 }
